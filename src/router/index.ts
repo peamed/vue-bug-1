@@ -6,6 +6,7 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     name: "home",
     component: HomeView,
+    meta: { keepAlive: true },
   },
   {
     path: "/about",

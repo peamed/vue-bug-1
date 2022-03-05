@@ -10,8 +10,12 @@ import { Options, Vue } from "vue-class-component";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 @Options({
+  name: "Home",
   components: {
     HelloWorld,
+  },
+  mounted() {
+    console.log(21222);
   },
 })
 export default class HomeView extends Vue {}

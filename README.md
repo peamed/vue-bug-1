@@ -20,5 +20,17 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### process
+```
+1: Execute NPM run serve
+
+2: Click route abort
+
+3: Click route home
+
+4: Open /src/homeview.vue file editing
+
+5: Change the console.log(21222)
+
+6: save the file and the bug will appear
+```
